@@ -1,4 +1,4 @@
-#Pre-AP Computer Science Exercise 1				math_helper_lastnfi.py
+# Pre-AP Computer Science Exercise 1				math_helper_lastnfi.py
 
 Write a program that will be useful in your math class this year.  Use the internet to find at least 5 formulas that should be used in your math class this year.
 		
@@ -19,3 +19,7 @@ You will be required to use “doctest” comments for each function (see the ex
 If a formula has a domain besides all real numbers, be sure that your function validates the user's input and displays an appropriate error message if necessary.
 
 Take a look at the doctest_example.py and my use of the “raise” command that causes an exception.  We will discuss “try-except” blocks in class.
+
+Your program should be named math_helper_lastnamefi.py
+
+This will be your first real experience with using Git and Github, so be patient, learn a lot and **ASK QUESTIONS**!!
