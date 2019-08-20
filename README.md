@@ -1,8 +1,9 @@
-# Pre-AP Computer Science Exercise 1				math_helper_lastnfi.py
+# Advanced Computer Science 			math_helper.py
 
-Write a program that will be useful in your math class this year.  Use the internet to find at least 5 formulas that should be used in your math class this year.
+## Objective
+You will write a program that will be useful in your math class this year.  Use the internet to find at least 5 formulas that should be used in your math class this year.
 		
-Program Requirements
+## Program Requirements
 		
 * The formulas must use:
   * addition, subtraction, multiplication, division, integer division, exponentiation (raising to a power), and square roots (at least one of each).
@@ -20,30 +21,7 @@ If a formula has a domain besides all real numbers, be sure that your function v
 
 Take a look at the doctest_example.py and my use of the “raise” command that causes an exception.  We will discuss “try-except” blocks in class.
 
-# Setting Up Git/Github
-This will be your first real experience with using Git and Github, so be patient, learn a lot and **ASK QUESTIONS**!!
+## Submission
+You will regularly add/commit/push via Github so I can track your progress and provide assistance.  When problems arise, you can use the "Issues" feature of Github to request help.  I will clone your repository and run your program to check for its completion on or after the due date discussed in class.
 
-Git has already been installed on the computers here at school. Open a command prompt, and change to your AdvCS folder: *cd AdvCS*
-
-Towards the top of this page is a green button that says "Clone or Download." Click it, make sure it says "Clone with HTTPS" in bold letters, if not click the blue hyperlink to make it clone with HTTPS.  Then click the little clipboard icon with the arrow.
-
-Go back to your command prompt and type in: *git clone* then press *ctrl shift v* to paste the link in.  Press Enter.
-
-Something should happen.  (Not an error)
-
-# Using Git/Github
-Git is "version control system".  Think of it as a way to save every version of your program as you develop it.
-
-As you work and complete various parts of your program, you should go to your command line and type the following:
-* *git add math_helper.py*
-* *git commit -m "**change made**"*
-
-At the END of the period (before you log out), you should type:
-* *git push* 
-
-You will need to type in the e-mail address and password for Github that you created.
-
-This will upload all of your work from class to Github where I can look at it, and you can access it from elsewhere if needed.  
-
-I am expecting to see regular "commits" and should see your "push" at the end of each class period!
 
