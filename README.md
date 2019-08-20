@@ -21,6 +21,24 @@ If a formula has a domain besides all real numbers, be sure that your function v
 
 Take a look at the doctest_example.py and my use of the “raise” command that causes an exception.  We will discuss “try-except” blocks in class.
 
+
+## Implementation Process
+1. Decide on a formula to include
+2. Write a function with the appropriate parameters that returns the "answer"
+3. Write at least 5 doctests for your function and make sure it works correctly
+4. If you have all 5 functions done, continue to step 5, otherwise, go back to step 1
+
+**Only continue if you have finished all 5 functions and their doctests!**
+
+5. Write a main function that will be executed when the program is run and will serve as the user interface.  It should:
+    * introduce the user to the program.
+    * provide a list of the available formulas
+    * allow the user to select the formula
+    * follow up their selection by asking for the appropriate inputs for the chosen formula
+    * use the function created in steps 1-4 to get and display the answer
+    * allow the user to select another formula or quit
+
+
 ## Submission
 You will regularly add/commit/push via Github so I can track your progress and provide assistance.  When problems arise, you can use the "Issues" feature of Github to request help.  I will clone your repository and run your program to check for its completion on or after the due date discussed in class.
 
