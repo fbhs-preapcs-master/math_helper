@@ -135,12 +135,17 @@ class Window(Frame):
         pass
         
     def reset_formula(self):
-        self.answer.forget()
-        self.parameter1.forget()
-        self.parameter2.forget()
-        self.parameter3.forget()
-        self.parameter4.forget()
-        self.calc_button.forget()
+        try:
+            self.answer.forget()
+            self.parameter1.forget()
+            self.parameter2.forget()
+            self.parameter3.forget()
+            self.parameter4.forget()
+            self.calc_button.forget()
+        except AttributeError:
+            # ignore if any of the parameters
+            # answer or button aren't there
+            pass
 
     def client_exit(self):
         exit()
